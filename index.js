@@ -5,7 +5,6 @@ function theBeatlesPlay(musician, instruments){
     for(let i=0; i>musician.length; i++){
       var current =`${musician[i]} plays ${instruments[i]}`;
       empty.push(current);
-      
-      
     }
+  return empty;  
 }
